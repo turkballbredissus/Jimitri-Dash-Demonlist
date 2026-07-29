@@ -1,0 +1,10 @@
+# Local-only admin tool — must NEVER be committed or deployed.
+# This is what keeps the control panel off the public site.
+
+admin.html
+node_modules/
+.vercel/
+.env
+.env.*
+*.log
+.DS_Store
